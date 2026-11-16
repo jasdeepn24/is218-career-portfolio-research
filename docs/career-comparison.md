@@ -7,13 +7,25 @@ The following paths are planning interpretations of the [employer research](./jo
 | Dimension | Business-facing application and automation engineering | Applied AI / data engineering |
 | --- | --- | --- |
 | Central problem | Turn stakeholder needs into useful applications and workflows | Build and evaluate reliable data-driven and AI systems |
-| Posting connection | Coinbase's HR technology internship | Citi and NBA as longer-term benchmarks |
+| Posting connection | Coinbase's HR technology internship | Amazon's BI internship as a data-focused entry example; Citi and NBA as longer-term benchmarks |
 | BIS connection | Business processes, requirements, user experience, and implementation | Business analysis combined with programming, data quality, and evaluation |
 | Plausible first roles to research | Web development intern, business systems intern, automation intern | Data/analytics intern, software engineering intern, junior data role with coding |
 | Entry evidence to build | Small tested application, clear requirements, API integration, user feedback | Reproducible data analysis, documented limitations, and a small evaluated AI prototype |
 | Progression | Internship → junior application/integration work → larger stakeholder-facing delivery | Internship/junior engineering or analytics → production data/software work → applied AI ownership |
 
 These role categories are proposed search targets, not verified vacancies. A BIS degree alone does not establish that an employer's technical-degree requirement is met; check each listing and demonstrate technical work.
+
+## Entry requirements compared
+
+Amazon's Business Intelligence Engineer Internship is a data/BI position, not an AI engineering position. It represents the data-focused entry route for the second career direction. The [employer research](./job-research.md) links the official postings and records their requirements and dates checked.
+
+| Dimension | Coinbase internship | Amazon internship |
+| --- | --- | --- |
+| Technical emphasis | Demonstrated software delivery and hands-on AI workflows, including output validation and human review | SQL/data artifacts required; scripting preferred |
+| Education | Relevant technical degree in progress or equivalent engineering experience | Specified degree/enrollment/graduation conditions |
+| Proposed next evidence | A tested workflow prototype with documented AI limitations | A reproducible SQL analysis and dashboard |
+
+These are preparation targets, not claims of eligibility or completed skills. The existing coursework and project evidence provides starting points; it does not establish that every requirement is met. The proposed SQL analysis and dashboard would test interest in the data direction before pursuing more advanced AI work.
 
 ## Provisional direction
 

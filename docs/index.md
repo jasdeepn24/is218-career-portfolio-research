@@ -6,7 +6,7 @@ A small research notebook connecting employer expectations to Business & Informa
 
 ## Explore the lab
 
-- [Job Research](./job-research.md): three official employer postings, qualifications, locations, and availability caveats.
+- [Job Research](./job-research.md): four official employer postings, qualifications, locations, and availability caveats.
 - [Career Comparison](./career-comparison.md): two possible directions, realistic entry routes, and learning gaps.
 - [Portfolio Plan](./portfolio-plan.md): an audience, design options, ethical choices, and testable user stories for a future portfolio.
 

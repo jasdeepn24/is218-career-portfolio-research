@@ -1,6 +1,6 @@
 # Job Research
 
-**Checked November 11, 2026 (America/New_York).** Original employer links are retained even when application status changes. Summaries describe the postings, not a guarantee of present availability.
+**Original three profiles checked November 11, 2026; Amazon profile checked November 15, 2026 (America/New_York).** Original employer links are retained even when application status changes. Summaries describe the postings, not a guarantee of present availability.
 
 ## Coinbase — Forward Deployed Engineer Intern (HR Technology)
 
@@ -38,8 +38,20 @@
 - **Source evidence:** The indexed Workday text gives a “Minimum 3 years in applied AI/ML roles.”
 - **Level:** Senior technical ownership across production systems and organizational adoption.
 
-## Internship versus senior work
+## Amazon — Business Intelligence Engineer Internship – 2027 (US)
 
-The internship offers bounded delivery within a learning stage. Both senior postings expect established engineering depth and production ownership; their experience thresholds differ. These are three examples, not a survey of the whole job market. The [career comparison](./career-comparison.md) treats senior roles as longer-term skill references.
+[Official Amazon posting](https://www.amazon.jobs/en/jobs/10553765/business-intelligence-engineer-internship-2027-us) · Job ID 10553765
+
+- **Location / term:** Seattle listed; consideration across US locations. In-office, with winter, summer, and fall 2027 starts.
+- **Date / status:** Posted September 18, 2026, according to [Amazon's job search listing](https://www.amazon.jobs/en/search?base_query=Business+Intelligence+Engineer+intern); checked November 15, 2026 (America/New_York). Description and Apply now link visible; application submission not tested.
+- **Responsibilities:** Build datasets, queries, dashboards, and analyses; troubleshoot data and deliver maintainable BI solutions.
+- **Required:** SQL querying/modeling; basic data artifacts such as ETL; visualization tools and statistical methods. Age 18+; US-based academic enrollment; relevant bachelor's in progress, including information systems/business analytics, with graduation October 2027–December 2030; a study term remaining afterward. Listed commitment: 40 hours/week minimum, 12 weeks maximum.
+- **Selected preferred qualifications:** Python/Java/R, pipeline and schema design, regression, and communication.
+- **Source evidence:** Employer separates basic and preferred qualifications.
+- **Level:** A data/BI position, not an AI engineering position. It represents the data-focused entry route for the applied AI / data engineering career direction.
+
+## Internships versus senior work
+
+Coinbase and Amazon provide entry-stage examples for comparing the two directions. Citi and NBA remain longer-term references for production engineering and technical ownership. These four examples are not a survey of the whole job market. The [career comparison](./career-comparison.md) distinguishes entry requirements from longer-term skill development.
 
 No posting screenshots were found in the project or supplied files. The linked postings and brief source excerpts above are the retained evidence.
