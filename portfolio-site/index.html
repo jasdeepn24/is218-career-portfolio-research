@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jasdeep’s student portfolio: business analytics, business-facing technology, and automation at NJIT.">
+  <title>Jasdeep | Business &amp; Information Systems</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="#home" aria-label="Jasdeep, home">Jasdeep<span aria-hidden="true">.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#projects">Projects</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#links">Professional links</a>
+    </nav>
+  </header>
+  <main id="main" tabindex="-1">
+    <aside class="presentation-options wrap" aria-label="Presentation options" id="notebook">
+      <p><strong>Presentation options</strong> · Option A is the selected design.</p>
+      <a href="#home">Option A: Evidence-First</a>
+      <a href="#notebook">Option B: Case-Study Notebook</a>
+      <p class="notebook-note">Notebook view · The same content in a single reading column. <a href="#home">Return to the selected Evidence-First design</a>.</p>
+    </aside>
+    <section class="hero wrap" id="home" aria-labelledby="intro-title">
+      <div>
+        <p class="eyebrow">NJIT · Business &amp; Information Systems</p>
+        <h1 id="intro-title">Connecting business needs<br>with useful technology.</h1>
+        <p class="intro">I’m Jasdeep, a Business &amp; Information Systems student with a Data Analytics minor, seeking Summer 2027 internships in business analytics, business-facing technology, and automation.</p>
+        <p class="hero-note">A selection of coursework and projects—with evidence of what works and a clear view of what comes next.</p>
+        <a class="button" href="#projects">Explore my projects</a> <a class="resume-action" href="assets/resume/Jasdeep_Nagra_Resume_Summer2027.pdf">View résumé (PDF)</a>
+      </div>
+      <aside class="focus-panel" aria-label="Career interests">
+        <p class="eyebrow">Where I’m headed</p>
+        <p class="panel-heading">Business context.<br>Technical curiosity.<br>Evidence first.</p>
+        <p>Interested in internship opportunities that connect people, data, and practical software.</p>
+        <ul class="focus-list"><li>Business analytics</li><li>Business-facing technology</li><li>Automation</li></ul>
+      </aside>
+    </section>
+    <section class="section wrap" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading"><div><p class="eyebrow">Selected work</p><h2 id="projects-title">Projects with a clear purpose.</h2></div><p>Small projects. Explicit scope.<br>Evidence you can inspect.</p></div>
+      <div class="project-grid">
+        <article class="project-card">
+          <p class="status">Completed · scoped course project</p>
+          <h3>Rock Paper Scissors</h3>
+          <p class="tech">Python · Flask · pytest · Playwright</p>
+          <p>A single-round game that makes the player’s move, computer’s move, and outcome visible—and checks the rules behind the result.</p>
+          <dl><dt>My involvement</dt><dd>IS218 coursework. The work record documents my review of a winning round, replay, a rule test, and keyboard play.</dd><dt>Evidence</dt><dd>Winner rules, unit and browser tests, and a successful CI run are available on GitHub.</dd></dl>
+          <a class="card-link" href="#rps-case-study">Read the RPS case study</a>
+        </article>
+        <article class="project-card">
+          <p class="status">Locally playable · in development</p>
+          <h3>Highway Game</h3>
+          <p class="tech">Three.js · Flask · SQLite</p>
+          <p>A highway game combining browser-based 3D play with accounts and saved scores. Further development remains.</p>
+          <dl><dt>My involvement</dt><dd>Project development and technology research. The merged integration slice connects gameplay, accounts, and saved results; individual implementation responsibilities remain to be confirmed.</dd><dt>Evidence</dt><dd>Merged PR #4 records implementation, automated checks, and browser verification of the complete local workflow. Controller support and full account maintenance remain planned.</dd></dl>
+          <a class="card-link" href="#highway-case-study">Read the Highway Game case study</a>
+        </article>
+        <article class="project-card">
+          <p class="status">In development · group project</p>
+          <h3>Campus Help</h3>
+          <p class="tech">Wix · IT310 · Service workflows</p>
+          <p>A student-services marketplace group project exploring how students could find and offer help on campus.</p>
+          <dl><dt>My involvement</dt><dd>IT310 group project participation. My individual responsibilities and deliverables still need confirmation.</dd><dt>Evidence</dt><dd>Wix-based planning and group development are in progress. A public project artifact is still pending.</dd></dl>
+          <a class="card-link" href="#campus-case-study">Read the Campus Help project summary</a>
+        </article>
+      </div>
+    </section>
+    <section class="case-section" id="rps-case-study" aria-labelledby="case-title">
+      <div class="wrap case-layout">
+        <div class="case-overview">
+          <p class="eyebrow">Featured case study · IS218</p>
+          <h2 id="case-title">One round.<br>A result you can check.</h2>
+          <p>Rock Paper Scissors</p>
+          <a class="button" href="https://github.com/jasdeepn24/is218_rps_game">View the RPS repository</a>
+          <p class="small">Evidence reviewed November 23, 2026.<br>Source revision: <code>f7dbcd0</code>.</p>
+        </div>
+        <div class="case-content">
+          <section aria-labelledby="problem-title"><h3 id="problem-title">The problem</h3><p>Complete the rules in a supplied course starter so a player can choose a move, see both choices and the correct result, then play another independent round.</p></section>
+          <section aria-labelledby="contribution-title"><h3 id="contribution-title">My contribution &amp; project context</h3><p>The <a href="https://github.com/jasdeepn24/is218_rps_game/blob/f7dbcd0684b0cbcff0a998ef6dd17bac866ae027/SPEC.md">project work record</a> documents my explanation of why Rock loses to Paper, review of a Scissors-versus-Paper win, and successful replay using Tab and Enter.</p><p>This is a course-starter project using an AI-guided development workflow. The repository contains the completed rule function and added tests; the interface and Flask server were supplied. The exact division of implementation work between me and AI assistance still needs my confirmation.</p></section>
+          <section aria-labelledby="technology-title"><h3 id="technology-title">Technology &amp; scope</h3><p>Python keeps the winner rules in a small function, separate from the Flask request handler. pytest checks the rules and requests; Playwright exercises a browser round and replay. The scope stays deliberately small: one round at a time, without scoring or saved history.</p></section>
+          <section aria-labelledby="evidence-title"><h3 id="evidence-title">Evidence &amp; verification</h3><ul class="evidence-list"><li><a href="https://github.com/jasdeepn24/is218_rps_game/blob/f7dbcd0684b0cbcff0a998ef6dd17bac866ae027/game.py">Winner-rule implementation</a> handles ties and the three winning pairs.</li><li><a href="https://github.com/jasdeepn24/is218_rps_game/blob/f7dbcd0684b0cbcff0a998ef6dd17bac866ae027/tests/test_game.py">Rule and request tests</a> cover all nine move combinations and a submitted Rock-versus-Paper loss.</li><li><a href="https://github.com/jasdeepn24/is218_rps_game/blob/f7dbcd0684b0cbcff0a998ef6dd17bac866ae027/tests/e2e/test_round.py">Browser replay test</a> checks a loss followed by a fresh winning round.</li><li><a href="https://github.com/jasdeepn24/is218_rps_game/actions/runs/41541972475">GitHub Actions run for the reviewed revision</a> completed successfully on November 2, 2026.</li></ul><p class="small">These files and the recorded CI status were inspected for this portfolio. The RPS test suite was not rerun as part of the portfolio build.</p></section>
+          <section aria-labelledby="limitations-title"><h3 id="limitations-title">Limitations &amp; lessons to confirm</h3><p>This demonstrates a bounded classroom workflow, not production delivery. There is no score persistence, and passing tests do not establish complete usability or performance.</p><p>The work record supports one concrete learning example: explaining how a test catches an incorrect result. My personal reflection on what was hardest, what changed my understanding, and what I would do differently is still to be confirmed.</p></section>
+        </div>
+      </div>
+    </section>
+    <section class="section wrap" id="highway-case-study" aria-labelledby="highway-title">
+      <p class="eyebrow">Project case study · IS218</p><h2 id="highway-title">Highway Game: play, save, return.</h2>
+      <div class="skills-grid">
+        <div><h3>Problem &amp; implementation</h3><p>Connect a Three.js highway game to a persistent account workflow: register, sign in, drive, save a result, sign out, and return to private scores. Flask serves the built game and authentication; SQLite stores accounts and results.</p><p>Implemented gameplay includes acceleration, braking, steering, traffic collisions, pause/resume, and a timed run. Results save after server confirmation, with a retry path for failed saves.</p></div>
+        <div><h3>Contribution &amp; evidence</h3><p>This is my IS218 project. <a href="https://github.com/jasdeepn24/is218-highway-game-research/pull/4">Merged integration PR #4</a> records 51 backend tests, 9 frontend tests, successful builds, browser checks, and owner verification of registration, login, gameplay, and saving. These are recorded project results; they were not rerun for this portfolio.</p><p>My individual implementation responsibilities and division of AI-assisted work still need confirmation.</p></div>
+        <div><h3>Limitations &amp; next steps</h3><p>Controller support and full account maintenance are deferred. Score validation checks plausibility but is not cheat-proof. Run tickets expire after five minutes, and unsaved results remain only in the open tab.</p></div>
+        <div><h3>Decisions &amp; learning record</h3><p>The integrated slice uses one origin for gameplay and accounts, and reuses run IDs when retrying saves to prevent duplicates. These are documented project decisions; my personal lessons still need confirmation.</p><p><a href="https://github.com/jasdeepn24/is218-highway-game-research">Highway Game repository</a> · <a href="https://github.com/jasdeepn24/is218-highway-game-research/blob/083fb3b45c0b62054029626fe67983a0f535ca4b/game-app/README.md">Verified revision: setup, checks, and limitations</a></p></div>
+      </div>
+    </section>
+    <section class="section wrap" id="campus-case-study" aria-labelledby="campus-title">
+      <p class="eyebrow">Project summary · IT310</p><h2 id="campus-title">Campus Help: a student-services marketplace.</h2>
+      <div class="skills-grid"><div><h3>Problem &amp; approach</h3><p>The group project explores how students could find and offer campus services. The Wix-based plan connects an e-commerce platform with a student-service workflow. The project remains in development; a completed marketplace or tested feature set is not claimed.</p></div><div><h3>Contribution, evidence &amp; next steps</h3><p>My participation is part of IT310 coursework. My specific role, deliverables, and lessons need confirmation. Current evidence is the coursework planning and owner-provided project description; an approved Wix URL or group artifact is pending. Next steps are to document responsibilities and check a useful service-discovery workflow.</p></div></div>
+    </section>
+    <section class="section wrap about-layout" id="about" aria-labelledby="about-title">
+      <div><p class="eyebrow">About me</p><h2 id="about-title">Business perspective.<br>A growing technical foundation.</h2></div>
+      <div><p class="lead">I’m pursuing a B.S. in Business &amp; Information Systems at New Jersey Institute of Technology, with a Data Analytics minor and expected graduation in May 2028.</p><p>I’m interested in how data and software can make business processes more useful and understandable. My coursework connects analytics, web applications, user experience, and technology ethics.</p><p>Since June 2026, I’ve been a Data Science and Analytics Intern at Sports Media Inc. I build an Excel ambassador and commission performance dashboard for the Drive Fear Free project and work with an analytics team on sports sponsorship research. I use AI tools to support dashboard design and documentation, checking outputs against source data. I’m seeking a Summer 2027 internship where I can deepen my analytics and business systems experience.</p></div>
+    </section>
+    <section class="section wrap skills-section" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading"><div><p class="eyebrow">Skills &amp; foundations</p><h2 id="skills-title">Grounded in work I can explain.</h2></div><p>Coursework and project experience.<br>No proficiency scores.</p></div>
+      <dl class="skills-grid">
+        <div><dt>Python &amp; software testing</dt><dd>RPS rule logic, pytest assertions, and browser-test evidence in IS218.<a href="#rps-case-study">See the project evidence</a></dd></div>
+        <div><dt>Excel &amp; business analytics</dt><dd>Excel dashboards, reporting, formulas, and KPI tracking through my Sports Media Inc. internship; forecasting and regression activities in MGMT216, in progress. Internal employer data is not shared here.</dd></div>
+        <div><dt>Web &amp; user experience foundations</dt><dd>Completed coursework in IS117 Website Development, IT202 Internet Applications, and IS247 Designing the User Experience.</dd></div>
+        <div><dt>Research &amp; responsible AI workflows</dt><dd>Sponsorship research and standardized data categories at Sports Media Inc.; AI-assisted dashboard design and documentation with source-data checks. Campus Help and IS350 coursework add service-workflow and ethics context.</dd></div>
+      </dl>
+    </section>
+    <section class="links-section wrap" id="links" aria-labelledby="links-title"><div><p class="eyebrow">Continue exploring</p><h2 id="links-title">Professional links</h2><p>Explore my projects, professional profiles, and Summer 2027 résumé draft.</p></div><ul class="professional-links"><li><a href="https://github.com/jasdeepn24">My GitHub profile</a></li><li><a href="https://www.linkedin.com/in/jasdeepsinghnagra/">My LinkedIn profile</a></li><li><a href="assets/resume/Jasdeep_Nagra_Resume_Summer2027.pdf">View résumé (PDF)</a> · <a href="assets/resume/Jasdeep_Nagra_Resume_Summer2027.pdf" download>Download résumé (PDF)</a></li><li><a href="https://github.com/jasdeepn24/is218_rps_game">RPS repository</a></li><li><a href="https://github.com/jasdeepn24/is218-highway-game-research">Highway Game repository</a></li></ul></section>
+  </main>
+  <footer class="wrap site-footer"><p>Jasdeep · NJIT Business &amp; Information Systems</p><a href="#home">Back to top</a></footer>
+</body>
+</html>
