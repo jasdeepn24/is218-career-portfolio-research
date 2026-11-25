@@ -1,6 +1,6 @@
 # IS218 Review 2 — Portfolio record
 
-Local review draft, November 23, 2026. Branch: `codex/portfolio-first-slice`. No commit, push, merge, or deployment authorized or performed.
+Review 2 portfolio draft, November 25, 2026. The portfolio was committed through PR #4, merged into main, and published through GitHub Pages workflow run #8. Peer feedback and further improvements remain pending.
 
 ## Two presentations, one content source
 
