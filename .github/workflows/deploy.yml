@@ -29,6 +29,10 @@ jobs:
       - uses: actions/configure-pages@v4
       - run: npm ci
       - run: npm run docs:build
+      - name: Include portfolio in GitHub Pages
+        run: |
+          mkdir -p docs/.vitepress/dist/portfolio
+          cp -R portfolio-site/. docs/.vitepress/dist/portfolio/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs/.vitepress/dist
